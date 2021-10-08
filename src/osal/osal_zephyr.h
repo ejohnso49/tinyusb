@@ -28,7 +28,7 @@
 #define _TUSB_OSAL_ZEPHYR_H_
 
 // Zephyr Headers
-#include TU_INCLUDE_PATH(CFG_TUSB_OS_INC_PATH,zephyr.h)
+#include <zephyr.h>
 
 #ifdef __cplusplus
 extern "C" {

@@ -57,6 +57,8 @@ typedef void (*osal_task_func_t)( void * );
   #include "osal_pico.h"
 #elif CFG_TUSB_OS == OPT_OS_RTTHREAD
   #include "osal_rtthread.h"
+#elif CFG_TUSB_OS == OPT_ZEPHYR
+  #include "osal_zephyr.h"
 #elif CFG_TUSB_OS == OPT_OS_CUSTOM
   #include "tusb_os_custom.h" // implemented by application
 #else
